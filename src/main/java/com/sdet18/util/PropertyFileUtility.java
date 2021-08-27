@@ -44,4 +44,8 @@ public class PropertyFileUtility {
 	public int getExplicitWait() {
 		return Integer.parseInt(prop.getProperty("ExplicitWait"));
 	}
+	
+	public String getRemote() {
+		return prop.getProperty("remote");
+	}
 }

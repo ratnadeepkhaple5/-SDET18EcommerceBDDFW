@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28453" started-at="2021-08-27T13:06:44 IST" finished-at="2021-08-27T13:07:12 IST">
+  <suite name="Default suite" duration-ms="35062" started-at="2021-08-27T17:48:16 IST" finished-at="2021-08-27T17:48:51 IST">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@78e67e0a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@36b4cef0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="28453" started-at="2021-08-27T13:06:44 IST" finished-at="2021-08-27T13:07:12 IST">
+    <test name="Default test" duration-ms="35062" started-at="2021-08-27T17:48:16 IST" finished-at="2021-08-27T17:48:51 IST">
       <class name="runner.Runner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Runner@78e67e0a]" name="setUpClass" is-config="true" duration-ms="1632" started-at="2021-08-27T13:06:44 IST" finished-at="2021-08-27T13:06:46 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Runner@36b4cef0]" name="setUpClass" is-config="true" duration-ms="4951" started-at="2021-08-27T17:48:16 IST" finished-at="2021-08-27T17:48:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@78e67e0a]" name="runScenario" duration-ms="13353" started-at="2021-08-27T13:06:46 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-27T13:06:59 IST">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@36b4cef0]" name="runScenario" duration-ms="24074" started-at="2021-08-27T17:48:21 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-27T17:48:45 IST">
           <params>
             <param index="0">
               <value>
@@ -37,30 +37,14 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at stepdefinitions.HomePageTest.home_page_is_displayed_i_will_check_whether_logo_is_displayed_or_not(HomePageTest.java:31)
-at ✽.Home page is displayed I will check whether logo is displayed or not(file:///C:/Users/Nitheesha/Desktop/User1/SDET18EcommerceBDD/./src/test/java/features/Home.feature:4)
+at ✽.Home page is displayed I will check whether logo is displayed or not(file:///C:/Users/Nitheesha/git/sdet18Ecommerce/SDET18EcommerceBDD/./src/test/java/features/Home.feature:5)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@78e67e0a]" name="runScenario" duration-ms="12974" started-at="2021-08-27T13:06:59 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-27T13:07:12 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["As a user In home I will select Best Seller and I will get All the Dress text"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Home page modules]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Runner@78e67e0a]" name="tearDownClass" is-config="true" duration-ms="369" started-at="2021-08-27T13:07:12 IST" finished-at="2021-08-27T13:07:12 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Runner@36b4cef0]" name="tearDownClass" is-config="true" duration-ms="5819" started-at="2021-08-27T17:48:46 IST" finished-at="2021-08-27T17:48:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
